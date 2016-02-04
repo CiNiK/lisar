@@ -1,0 +1,23 @@
+{
+    "name": "lisar",
+    "description": "Painter's Gallery",
+    "keywords": ["radchenko", "lisar", "lisa"],
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+		"imagine/imagine": "*",
+		"bcosca/fatfree-core": "*",
+		"masterexploder/phpthumb": "*"
+    },
+	"require-dev": {
+    	"phpunit/phpunit": "*"
+	}, 
+	"autoload": {
+        "psr-4": {
+            "app\\": "",
+			"test\\" : "tests"
+        }
+    }
+}

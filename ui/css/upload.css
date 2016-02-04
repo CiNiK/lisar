@@ -1,0 +1,9 @@
+#upload{
+    padding-top: 10px;
+    width: 250px;
+    margin: auto;
+}
+
+#upload a:hover{
+    text-decoration: none;
+}

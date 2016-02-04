@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/ui/css/bootstrap.min.css"/>
+    <title></title>
+</head>
+<body>
+    <div class="images">
+        <h3>Next images hasn't been loaded:</h3>
+    <?php
+        foreach($items as $item){
+            $image = pathinfo($item['path'],PATHINFO_BASENAME);
+            echo "<h5>Image: {$image}, cause: {$item['cause']}</h5>";
+        }
+    ?>
+    </div>
+        <a class="glyphicon glyphicon-plus btn-lg btn-danger" href="upload"> Upload</a>
+        <a class="glyphicon glyphicon-eye-open btn-lg btn-info" href="list"> Gallery</a>
+    </div>
+</body>
+</html>

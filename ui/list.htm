@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/ui/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/ui/css/list.css"/>
+    <title></title>
+</head>
+<body>
+    <div class="images">
+    <?php
+        foreach($items as $item){
+            require("item.htm");
+        }
+    ?>
+    </div>
+    <div id="upload">
+        <a class="glyphicon glyphicon-plus btn-lg btn-danger" href="upload"> Upload</a>
+    </div>
+</body>
+</html>

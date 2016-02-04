@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Demo">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+
+        <title>Galereya. Demo.</title>
+
+        <link href='http://fonts.googleapis.com/css?family=Scada:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/demo.css">
+        <link rel="stylesheet" href="ui/css/jquery.galereya.css">
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" href="css/jquery.galereya.ie.css">
+        <![endif]-->
+        <style>
+            body{
+                background: #f6d654 url("ui/img/braces2.jpg") repeat;
+            }
+            .galereya-top {
+                position: fixed;
+
+                background: rgba(0, 0, 0, 0.7);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="gallery"></div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="ui/js/jquery.galereya.min.js"></script>
+        <script>
+            $(function() {
+                $('#gallery').galereya({
+                    // spacing between cells of the masonry grid
+                    spacing: 5,
+
+                    // waving visual effect
+                    wave: true,
+
+                    // waving visual effect timeout duration
+                    waveTimeout: 300,
+
+                    load: function(next) {
+                        $.getJSON('images.json', function(data) {
+                            next(data);
+                        });
+                    }
+                });
+            });
+        </script>
+    </body>
