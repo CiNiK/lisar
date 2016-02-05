@@ -54,7 +54,8 @@ class Gallery
 
 
     public function deleteAll(){
-        for($i = 0; $i < sizeof($this->items); $i++){
+        $size = sizeof($this->items);
+        for($i = 0; $i < $size; $i++){
             $this->deleteByIndex(0);
         }
     }
