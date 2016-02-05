@@ -89,7 +89,10 @@ F3::route('GET /admin/deleteAll',
         (new app\controllers\GalleryController())->deleteAll();
     }
 );
-
+F3::route('GET /admin',
+    function(){
+        F3::reroute('list');
+});
 F3::run();
 
 ?>
