@@ -66,7 +66,9 @@ F3::route('GET /admin/delete/@name',
         if(!F3::exists('SESSION.user')) {
             (new app\controllers\UserController())->auth();
         }
-        (new app\controllers\GalleryController())->delete(F3::get('PARAMS.name'));
+        else{
+            (new app\controllers\GalleryController())->delete(F3::get('PARAMS.name'));
+        }
     }
 );
 

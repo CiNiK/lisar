@@ -34,7 +34,7 @@ class GalleryController{
 		$gallery = new Gallery();
 		$gallery->fromJson(ROOT.$config['images']['json']);
 		$gallery->deleteByName($name);
-		F3::reroute('list');
+		F3::reroute('/admin/list');
 	}
 
 	public function deleteAll(){
