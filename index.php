@@ -79,6 +79,15 @@ F3::route('GET /admin/addToGallery',
     }
 );
 
+F3::route('GET /admin/deleteAll',
+    function () {
+        if(!F3::exists('SESSION.user')) {
+            (new app\controllers\UserController())->auth();
+        }
+        (new app\controllers\GalleryController())->deleteAll();
+    }
+);
+
 F3::run();
 
 ?>

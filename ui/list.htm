@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/ui/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/ui/css/list.css"/>
-    <title></title>
+    <title>Gallery List</title>
 </head>
 <body>
+    <div>
+        <a class="glyphicon glyphicon-plus btn-lg btn-info" href="upload"> Upload</a>
+        <a class="glyphicon glyphicon-trash btn-lg btn-danger" href="deleteAll"> Delete all</a>
+    </div>
     <div class="images">
     <?php
         foreach($items as $item){
