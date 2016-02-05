@@ -5,7 +5,8 @@ define('ROOT', __DIR__);
 //F3::set('CACHE',TRUE);
 F3::set('DEBUG', 3);
 F3::set('UI', 'ui/');
-
+ini_set("upload_max_filesize","10M");
+ini_set("post_max_size","10M");
 
 F3::route('GET /',
     function () {
