@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="009cbbff-ab9a-4e0b-b206-b33825bf507e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/GoogleDriveGalleryItemCreator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/LocalGalleryItemCreator.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/lisar.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/files/7b5ad798-3b03-43c7-b4c6-4482da9c7858/Lamp and shadows_2014.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/files/bfb5955e-11a7-4061-8964-3262d15e43dd/Lamp and shadows_2014.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images.json" afterPath="$PROJECT_DIR$/images.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/GalleryItem.php" afterPath="$PROJECT_DIR$/models/GalleryItem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/GalleryItemCreator.php" afterPath="$PROJECT_DIR$/models/GalleryItemCreator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/GalleryLoader.php" afterPath="$PROJECT_DIR$/models/GalleryLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Image.php" afterPath="$PROJECT_DIR$/models/Image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/models/GalleryItemHandlerTest.php" afterPath="$PROJECT_DIR$/tests/models/GalleryItemHandlerTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/auth.htm" afterPath="$PROJECT_DIR$/ui/auth.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/gallery.htm" afterPath="$PROJECT_DIR$/ui/gallery.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/list.htm" afterPath="$PROJECT_DIR$/ui/list.htm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ui/upload.html" afterPath="$PROJECT_DIR$/ui/upload.html" />
     </list>
@@ -48,7 +29,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GoogleDriveGalleryItemCreator.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoogleDriveGalleryItemCreator.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/GoogleDriveGalleryItemCreator.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="421">
@@ -56,6 +37,46 @@
               <folding>
                 <element signature="e#29#47#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ui/upload.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="images.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/images.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="330" column="3" selection-start-line="330" selection-start-column="3" selection-end-line="330" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/auth.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/list.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,11 +110,14 @@
         <option value="$PROJECT_DIR$/models/LocalGalleryItemCreator.php" />
         <option value="$PROJECT_DIR$/models/GalleryItemCreator.php" />
         <option value="$PROJECT_DIR$/models/GoogleDriveImageItemCreator.php" />
-        <option value="$PROJECT_DIR$/ui/upload.html" />
         <option value="$PROJECT_DIR$/models/GalleryLoader.php" />
         <option value="$PROJECT_DIR$/models/Image.php" />
         <option value="$PROJECT_DIR$/models/GalleryItem.php" />
         <option value="$PROJECT_DIR$/models/GoogleDriveGalleryItemCreator.php" />
+        <option value="$PROJECT_DIR$/images.json" />
+        <option value="$PROJECT_DIR$/ui/auth.htm" />
+        <option value="$PROJECT_DIR$/ui/list.htm" />
+        <option value="$PROJECT_DIR$/ui/upload.html" />
       </list>
     </option>
   </component>
@@ -635,12 +659,12 @@
       <updated>1473178765233</updated>
       <workItem from="1473178770577" duration="81000" />
       <workItem from="1473178909875" duration="8696000" />
-      <workItem from="1473230488669" duration="2478000" />
+      <workItem from="1473230488669" duration="3482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11255000" />
+    <option name="totallyTimeSpent" value="12259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="3" width="1316" height="772" extended-state="1" />
@@ -754,14 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="86" column="28" selection-start-line="86" selection-start-column="28" selection-end-line="86" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/GalleryLoader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -796,14 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2075">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/GoogleDriveGalleryItemCreator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -811,6 +819,70 @@
           <folding>
             <element signature="e#29#47#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="330" column="3" selection-start-line="330" selection-start-column="3" selection-end-line="330" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/failed.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/gallery.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/item.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/layout.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/auth.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/list.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
