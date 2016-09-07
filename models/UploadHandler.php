@@ -95,7 +95,7 @@ class UploadHandler {
         }
 
         if ($this->isInaccessible($uploadDirectory)){
-            return array('error' => "Server error. Uploads directory isn't writable ".getcwd()." ".$uploadDirectory);
+            return array('error' => "Server error. Uploads directory isn't writable ");
         }
 
         $type = $_SERVER['CONTENT_TYPE'];
@@ -335,7 +335,7 @@ class UploadHandler {
     protected function isInaccessible($directory) {
         $isWin = $this->isWindows();
         $folderInaccessible = ($isWin) ? !is_writable($directory) : ( !is_writable($directory) && !is_executable($directory) );
-        return $folderInaccessible;
+        return false;
     }
 
     /**
