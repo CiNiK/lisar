@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="009cbbff-ab9a-4e0b-b206-b33825bf507e" name="Default" comment="" />
+    <list default="true" id="009cbbff-ab9a-4e0b-b206-b33825bf507e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/GalleryLoader.php" afterPath="$PROJECT_DIR$/models/GalleryLoader.php" />
+    </list>
     <ignored path="lisar.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,8 +28,8 @@
       <file leaf-file-name="GalleryLoader.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/GalleryLoader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            <state relative-caret-position="306">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -80,7 +82,6 @@
         <option value="$PROJECT_DIR$/models/LocalGalleryItemCreator.php" />
         <option value="$PROJECT_DIR$/models/GalleryItemCreator.php" />
         <option value="$PROJECT_DIR$/models/GoogleDriveImageItemCreator.php" />
-        <option value="$PROJECT_DIR$/models/GalleryLoader.php" />
         <option value="$PROJECT_DIR$/models/Image.php" />
         <option value="$PROJECT_DIR$/models/GalleryItem.php" />
         <option value="$PROJECT_DIR$/models/GoogleDriveGalleryItemCreator.php" />
@@ -88,6 +89,7 @@
         <option value="$PROJECT_DIR$/ui/auth.htm" />
         <option value="$PROJECT_DIR$/ui/list.htm" />
         <option value="$PROJECT_DIR$/ui/upload.html" />
+        <option value="$PROJECT_DIR$/models/GalleryLoader.php" />
       </list>
     </option>
   </component>
@@ -629,12 +631,12 @@
       <updated>1473178765233</updated>
       <workItem from="1473178770577" duration="81000" />
       <workItem from="1473178909875" duration="8696000" />
-      <workItem from="1473230488669" duration="4743000" />
+      <workItem from="1473230488669" duration="4988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13520000" />
+    <option name="totallyTimeSpent" value="13765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="3" width="1316" height="772" extended-state="1" />
@@ -866,8 +868,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/GalleryLoader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        <state relative-caret-position="306">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding />
         </state>
       </provider>

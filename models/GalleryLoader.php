@@ -26,6 +26,7 @@ class GalleryLoader
     public function setItemHandler(GalleryItemCreator $itemHandler)
     {
         $this->itemHandler = $itemHandler;
+        
     }
 
     public function load($path)
