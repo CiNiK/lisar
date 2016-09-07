@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="009cbbff-ab9a-4e0b-b206-b33825bf507e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/UploadHandler.php" afterPath="$PROJECT_DIR$/models/UploadHandler.php" />
     </list>
     <ignored path="lisar.iws" />
@@ -59,7 +60,7 @@
         <entry file="file://$PROJECT_DIR$/models/UploadHandler.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="97" column="101" selection-start-line="97" selection-start-column="101" selection-end-line="97" selection-end-column="101" />
+              <caret line="97" column="99" selection-start-line="97" selection-start-column="99" selection-end-line="97" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -632,12 +633,12 @@
       <updated>1473178765233</updated>
       <workItem from="1473178770577" duration="81000" />
       <workItem from="1473178909875" duration="8696000" />
-      <workItem from="1473230488669" duration="5541000" />
+      <workItem from="1473230488669" duration="5693000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14318000" />
+    <option name="totallyTimeSpent" value="14470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="3" width="1316" height="772" extended-state="0" />
@@ -870,7 +871,7 @@
     <entry file="file://$PROJECT_DIR$/models/UploadHandler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="97" column="101" selection-start-line="97" selection-start-column="101" selection-end-line="97" selection-end-column="101" />
+          <caret line="97" column="99" selection-start-line="97" selection-start-column="99" selection-end-line="97" selection-end-column="99" />
           <folding />
         </state>
       </provider>
