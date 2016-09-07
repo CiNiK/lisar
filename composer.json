@@ -10,7 +10,8 @@
 		"ext-gd": "*",
 		"ext-exif": "*",
 		"bcosca/fatfree-core": "*",
-		"masterexploder/phpthumb": "*"
+		"masterexploder/phpthumb": "*",
+        "google/apiclient": "2.0"
     },
 	"require-dev": {
     	"phpunit/phpunit": "*"

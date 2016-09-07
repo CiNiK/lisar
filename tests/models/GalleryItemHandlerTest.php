@@ -2,7 +2,7 @@
 
 use app\models\Image;
 use app\models\GalleryItem;
-use app\models\GalleryItemCreator;
+use app\models\LocalGalleryItemCreator;
 define('ROOT', dirname(dirname(__FILE__)));
 class GalleryItemHandlerTest extends \PHPUnit_Framework_TestCase{
 	private $config;
@@ -53,7 +53,7 @@ class GalleryItemHandlerTest extends \PHPUnit_Framework_TestCase{
 		$fullsrc = $this->config['images']['full']['path'].$name.'.'.$this->config['images']['full']['ext'];
 		$lowsrc = $this->config['images']['low']['path'].$name.'.'.$this->config['images']['low']['ext'];
 		$item = new GalleryItem('example', '2016', $fullsrc, $lowsrc);
-		$handler = new GalleryItemCreator();
+		$handler = new LocalGalleryItemCreator();
 		$handler->setFullImageProps($this->config['images']['full']);
 		$handler->setLowImageProps($this->config['images']['low']);
 		$this->assertEquals($item, $handler->create($this->inputDir.$this->inputImageName));
@@ -65,7 +65,7 @@ class GalleryItemHandlerTest extends \PHPUnit_Framework_TestCase{
         $name = pathinfo($this->inputImageName,PATHINFO_FILENAME);
         $fullsrc = $this->config['images']['full']['path'].$name.'.'.$this->config['images']['full']['ext'];
         $lowsrc = $this->config['images']['low']['path'].$name.'.'.$this->config['images']['low']['ext'];
-        $handler = new GalleryItemCreator();
+        $handler = new LocalGalleryItemCreator();
         $handler->setFullImageProps($this->config['images']['full']);
         $handler->setLowImageProps($this->config['images']['low']);
         $item = $handler->create($this->inputDir.$this->inputImageName);

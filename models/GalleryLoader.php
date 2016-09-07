@@ -15,7 +15,7 @@ class GalleryLoader
     public function __construct()
     {
         $this->itemList = new Gallery();
-        $this->itemHandler = new GalleryItemCreator();
+        $this->itemHandler = new LocalGalleryItemCreator();
     }
 
     public function setItemList(Gallery $itemList)
@@ -67,7 +67,7 @@ class GalleryLoader
         $itemList = new Gallery();
         $itemList->fromJson(ROOT.$cfg['json']);
         $loader->setItemList($itemList);
-        $itemHandler = new GalleryItemCreator();
+        $itemHandler = new GoogleDriveGalleryItemCreator();
         $itemHandler->setFullImageProps($cfg['full']);
         $itemHandler->setLowImageProps($cfg['low']);
         $loader->setItemHandler($itemHandler);

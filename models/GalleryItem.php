@@ -31,6 +31,24 @@ class GalleryItem
         return $this->description . '_' . $this->category;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getFullSrc()
+    {
+        return $this->fullsrc;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getLowSrc()
+    {
+        return $this->lowsrc;
+    }
+    
+    
+
     public function delete(){
         if(file_exists(ROOT.$this->fullsrc))
             unlink(ROOT.$this->fullsrc);

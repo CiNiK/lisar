@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lisar-1",
+  "private_key_id": "985cffd544b52ebea5e48648f7021f9535fae194",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDpEgjq9GqXH0zv\nJJx4axiNBFss9Y3L/RMiWoMosQV2gMw3o+2wFeILZfoR6ntMp67cCXYbFsFrqmBM\n0rtXniyD5AQ5DONePCTAXXECmXcldGnpE4cbQ6wJyeuahPLOo53UKMO2eivUvNRm\nrq1+pX7ImHLcARrYo+qjBxS/8P+DGTRC0pgo4geyLPloOYANAhHnsZIVXUdGXjFv\nXgj6K/wG2UI4r1Jac862xFXeKTqNz+iwI9t5wCNwO22v2sO1Q4MUCNcmhN5qoaqy\nMNyFK+mhvI2K9IPsnO/S9gDj6DAaUawNFu3Jc5lEEAOCfQtYU2189Th4xwCEkC6b\nUbpHYnORAgMBAAECggEAHa1vN0PCItYYfMcDqY2xhZtNZM8rrBLgkdpGozLPSESk\nPF2CUY6nxt3IVumto5gieuA1isN+A5ChTIb01fZNIsoxA3axqPktkNUVI8iY1Esb\nhVM4O++FA4YTmwxcwpUw7qf2K9EoraERxrVtYBgAqdhHn94AJh/RK8smCD7OukmI\nFNYp5gnPPlgHHtleEQuwqBeTgfIBEEzzJHRh+K2eMQeu60133Y10qSH5VwON86gO\nF73Z1Dt3E43sdudBZ3f0XmvjSoPgEsR+V4lDm3q5P4iNx/3g6mHFjgIlfh7Szcz5\nkKBxeEQz5Xoyn0myof3XB6AEBvXg7oH6rEcw4Y6WFQKBgQD6lrSE53L8erRRfFwe\n9g9bZoQyl17ma71jrGjetxxrUNvpP96YldiuAR6/qysrN5h1Xbr2S6yovCxBbM4A\njTj8jh0uNdFeRHQ8RNx1Sj5amlOpmMJB5USIXgHLNxvvxwLZ5MM0TXES3GSYnCRK\n6DwBjKsXESO5S2JHtgjrHC8IiwKBgQDuGnxqT5W4C+bNkNyVkL5TXPDEdwuCAa37\nNmj1OC7cIDplfRU47HntvKcDmAu+MIOo856QBJd5I2Lj1rUEOxx5/s+ZZ8DzIz7p\n9nACGIdhveIGQch0o0lQHkzpjpoYu53dTjaEXFScn/1iNAq2M4U+rPuTxQWKRYOj\nhVyHm19b0wKBgQCCWeC/fdIfqgiglqso4+BrMDG2S21vOT5EWgwXRnM/E8nBVJsL\nDm+vXB/NnlGPYpUpAD/gHM9M2s2+nsWuHcg2AAsH3bDyc3NvYna3gI5c/QhmIXNz\nabqzoQsX1avvl7tQ8yHj1CDsqb6ecCKk4JdOSwk4r47AtYkDOpr7CichLwKBgQCQ\nAmj5i8UMGfawoksoEvFqTi45RZ8qNIXcCN6WYjLFZKCtPWgWk8BzL8T8AXwovgMD\nrsVaacyLsgFfuD6nnnDswFcje4NSCyFENI8uVVOcpFIOYr8w/Imc8ZanNF6zUtZ6\nQZHroER0rrd8K+nGpYaTj+BhUaq2JLEnt8NtKWYVjQKBgQC2kANMBYGrSyxu8SfR\nDu6ktC6yqh8WRleB9ekYYXBT1k0RTeVf8+Kwp6ehGN5SSu42FlJbUSKPhWFq6oqN\nd/gwmj0txfXvHZcxqo2ose0P9lp+eQEOQAzfCG1H+CO8IMIIE7Uqp5bb0vClMlnk\nT9Urwacu86i364V5Y0NbNWbvRg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "lisar-285@lisar-1.iam.gserviceaccount.com",
+  "client_id": "103163972681102738255",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lisar-285%40lisar-1.iam.gserviceaccount.com"
+}
