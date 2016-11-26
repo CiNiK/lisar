@@ -2,6 +2,7 @@
 namespace app\models;
 
 use app\exceptions\GalleryException;
+use Cloudinary;
 
 class Gallery
 {
@@ -13,7 +14,16 @@ class Gallery
         $this->validateJson($path);
         $this->path = $path;
         $this->items = json_decode(file_get_contents($path), true);
+		initCloudinary();
     }
+	
+	private function initCloudinary() {
+		\Cloudinary::config(array( 
+			"cloud_name" => "dexwggeql", 
+			"api_key" => "333414822513587", 
+			"api_secret" => "0g4ht_qn3gpWz5P6Q4JA59XlMuw" 
+		));
+	}
 
     private function validateJson($path)
     {
@@ -37,7 +47,11 @@ class Gallery
 
     private function save()
     {
-        return file_put_contents($this->path, json_encode($this->items));
+        file_put_contents("images.json", json_encode($this->items));
+		\Cloudinary\Uploader::upload("images.json", 
+                             array("public_id" => "images",
+                                   "resource_type" => "raw",
+								   "invalidate" => TRUE)));
     }
 
     public function toArray()

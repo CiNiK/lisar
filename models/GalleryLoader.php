@@ -15,7 +15,7 @@ class GalleryLoader
     public function __construct()
     {
         $this->itemList = new Gallery();
-        $this->itemHandler = new LocalGalleryItemCreator();
+        $this->itemHandler = new GoogleDriveGalleryItemCreator();
     }
 
     public function setItemList(Gallery $itemList)

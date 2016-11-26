@@ -64,7 +64,7 @@
                     waveTimeout: 300,
 
                     load: function(next) {
-                        $.getJSON('images.json', function(data) {
+                        $.getJSON("http://res.cloudinary.com/dexwggeql/raw/upload/v1480158255/images.json", function(data) {
                             next(data);
                         });
                     }
