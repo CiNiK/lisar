@@ -14,7 +14,7 @@ class Gallery
         //$this->validateJson($path);
         $this->path = $path;
         $this->items = json_decode(file_get_contents($path), true);
-		initCloudinary();
+		$this->initCloudinary();
     }
 	
 	private function initCloudinary() {
