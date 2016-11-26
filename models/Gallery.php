@@ -2,7 +2,10 @@
 namespace app\models;
 
 use app\exceptions\GalleryException;
-use Cloudinary;
+
+require 'Cloudinary.php';
+require 'Uploader.php';
+require 'Api.php';
 
 class Gallery
 {
