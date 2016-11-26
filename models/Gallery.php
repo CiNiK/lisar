@@ -51,7 +51,7 @@ class Gallery
 		\Cloudinary\Uploader::upload("images.json", 
                              array("public_id" => "images",
                                    "resource_type" => "raw",
-								   "invalidate" => TRUE)));
+								   "invalidate" => TRUE));
     }
 
     public function toArray()
