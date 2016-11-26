@@ -2,7 +2,7 @@
 namespace app\models;
 
 use app\exceptions\GalleryException;
-use Cloudinary;
+use \Cloudinary;
 
 class Gallery
 {
@@ -18,7 +18,7 @@ class Gallery
     }
 	
 	private function initCloudinary() {
-		Cloudinary::config(array( 
+		\Cloudinary::config(array( 
 			"cloud_name" => "dexwggeql", 
 			"api_key" => "333414822513587", 
 			"api_secret" => "0g4ht_qn3gpWz5P6Q4JA59XlMuw" 
