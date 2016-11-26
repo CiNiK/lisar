@@ -66,7 +66,7 @@ class GalleryLoader
     public static function build(array $cfg){
         $loader = new GalleryLoader();
         $itemList = new Gallery();
-        $itemList->fromJson(ROOT.$cfg['json']);
+        $itemList->fromJson($cfg['json']);
         $loader->setItemList($itemList);
         $itemHandler = new GoogleDriveGalleryItemCreator();
         $itemHandler->setFullImageProps($cfg['full']);
