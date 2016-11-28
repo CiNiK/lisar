@@ -171,6 +171,7 @@ class UploadHandler {
 
             $target = join(DIRECTORY_SEPARATOR, array($uploadDirectory, $uuid, $name));
             //$target = $this->getUniqueTargetPath($uploadDirectory, $name);
+			
             if ($target){
                 $this->uploadName = basename($target);
 
