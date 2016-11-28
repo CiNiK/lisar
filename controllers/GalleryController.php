@@ -48,7 +48,7 @@ class GalleryController{
 	private function clearUploadDir($dir)
     {
         foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($dir)) as $file) {
-			if($file->isFile()) {
+			if($file->isFile() && $file->getFilename() != "mock.txt") {
 				unlink($file->getPathname()); // delete file
 				rmdir($file->getPath());
 			}
