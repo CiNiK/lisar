@@ -59,7 +59,7 @@ class GalleryLoader
     public function loadFromDir($dir)
     {
         $paths = $this->getImagePaths($dir);
-		error_log("Image paths: ".$paths);
+		error_log("Image paths: ".implode(',', $paths));
         foreach ($paths as $path) {
             $this->load($path);
         }
