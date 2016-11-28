@@ -82,7 +82,7 @@ class GalleryLoader
         $paths = [];
         foreach (new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($dir)) as $filename) {
             if ($filename->isDir()) continue;
-			error_log("File found: ".$filename)
+			error_log("File found: ".$filename);
             if (!in_array(strtolower($filename->getExtension()), ['jpg', 'jpeg', 'png'])) continue;
             $paths[] = $filename->getPathname();
         }
