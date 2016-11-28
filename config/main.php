@@ -2,7 +2,7 @@
 return [
 	'uploadDir'		=> '/files/',
 	'images'		=> [
-		'json' 		=> 'http://res.cloudinary.com/dexwggeql/raw/upload/v1480158255/images.json',	
+		'json' 		=> 'http://res.cloudinary.com/dexwggeql/raw/upload/images.json',	
 		'delimeter'	=> '_',
 		'full'		=> [
 			'path' 		=> '/images/',
