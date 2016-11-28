@@ -2,7 +2,6 @@
 namespace app\models;
 
 use app\exceptions\GalleryException;
-use \Cloudinary;
 
 class Gallery
 {
