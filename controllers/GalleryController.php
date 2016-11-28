@@ -11,6 +11,7 @@ class GalleryController{
 	public function loadAll(){
 		$config = require(ROOT.'/config/main.php');
 		$loader = GalleryLoader::build($config['images']);
+		error_log("Trying load images from dir ".ROOT.$config['uploadDir']);
 		$loader->loadFromDir(ROOT.$config['uploadDir']);
         $this->clearUploadDir(ROOT.$config['uploadDir']);
         if(!$loader->hasErrors()){

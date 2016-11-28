@@ -34,6 +34,7 @@ class GalleryLoader
         try {
             if (!file_exists($path)) throw new ImageNotFoundException("Image $path doesn't exist");
             $item = $this->itemHandler->create($path);
+			error_log("Item created: ".$item->toArray());
             $this->itemList->add($item);
             $this->loaded[] =$path;
         }catch (\Exception $e){
@@ -58,6 +59,7 @@ class GalleryLoader
     public function loadFromDir($dir)
     {
         $paths = $this->getImagePaths($dir);
+		error_log("Image paths: ".$paths)
         foreach ($paths as $path) {
             $this->load($path);
         }
