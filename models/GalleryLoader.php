@@ -34,7 +34,7 @@ class GalleryLoader
         try {
             if (!file_exists($path)) throw new ImageNotFoundException("Image $path doesn't exist");
             $item = $this->itemHandler->create($path);
-			error_log("Item created: ".$item->toArray());
+			error_log("Item created: ".implode(",",$item->toArray()));
             $this->itemList->add($item);
             $this->loaded[] =$path;
         }catch (\Exception $e){
