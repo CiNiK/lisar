@@ -47,7 +47,7 @@ class Gallery
     private function save()
     {
         file_put_contents("images.json", json_encode($this->items));
-		error_log("Updated json: ".file_get_contents($this->items));
+		error_log("Updated json: ".file_get_contents("images.json"));
 		\Cloudinary\Uploader::upload("images.json", 
                              array("public_id" => "images",
                                    "resource_type" => "raw",
