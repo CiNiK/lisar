@@ -24,7 +24,7 @@ class GalleryController{
 	public function viewAll(){
 		$config = require(ROOT.'/config/main.php');
         $gallery = new Gallery();
-        $gallery->fromJson(ROOT.$config['images']['json']);
+        $gallery->fromJson($config['images']['json']);
 		$view = new \View;
 		echo $view->render('list.htm','text/html',['items' => $gallery->toArray()]);
 	}
@@ -32,7 +32,7 @@ class GalleryController{
 	public function delete($name){
 		$config = require(ROOT.'/config/main.php');
 		$gallery = new Gallery();
-		$gallery->fromJson(ROOT.$config['images']['json']);
+		$gallery->fromJson($config['images']['json']);
 		$gallery->deleteByName($name);
 		F3::reroute('/admin/list');
 	}
@@ -40,7 +40,7 @@ class GalleryController{
 	public function deleteAll(){
 		$config = require(ROOT.'/config/main.php');
 		$gallery = new Gallery();
-		$gallery->fromJson(ROOT.$config['images']['json']);
+		$gallery->fromJson($config['images']['json']);
         $gallery->deleteAll();
 		F3::reroute('upload');
 	}
