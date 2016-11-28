@@ -36,7 +36,7 @@ class GalleryLoader
             $item = $this->itemHandler->create($path);
             $this->itemList->add($item);
             $this->loaded[] =$path;
-        }catch (GalleryException $e){
+        }catch (\Exception $e){
             $failed['path'] = $path;
             $failed['cause'] = $e->getMessage();
             $this->failed[] = $failed;
